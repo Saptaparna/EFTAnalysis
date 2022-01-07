@@ -1,0 +1,12 @@
+{
+    "submitCondorJob.sh":{
+        "proxy_REPLACE":"x509up_u100637",
+        "Nevents_REPLACE":"3",
+        "SAMPLE_REPLACE":"WWW",
+        "OUTPUTDIR_REPLACE":"/stash/user/qilongguo/work/aQGC_Production/Output/UL/2018/ST_Scale/V1/WWW"
+    },
+    "triboson_production.sh":{
+        "GRIDPACK_BASE_URL_REPLACE":"http://nuhep.northwestern.edu/~sapta/GridpacksDim8/ModelAugust2021/Scale_ST",
+        "GRIDPACK_REPLACE":"WWW_ScaleST_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz"
+    }
+}
