@@ -491,15 +491,15 @@ xrdcp -r -f ${STEP6_NAME}.root root://cmseos.fnal.gov//store/user/lpcvvv/ULSigna
 fi
 
 # cleanup temporary working directories
-#if [ "$CLEANUP" ]
-#then
+if [ "$CLEANUP" ]
+then
    # The full event after the premixig before recuding it to AOD is too large and too easy to recalculate to justify saving it
-   #rm ${STEP0_NAME}.root
-   #rm ${STEP1_NAME}.root
-   #rm ${STEP2_NAME}.root
-   #rm ${STEP3_NAME}.root
-   #rm ${STEP4_NAME}.root
+   rm ${STEP0_NAME}.root
+   rm ${STEP1_NAME}.root
+   rm ${STEP2_NAME}.root
+   rm ${STEP3_NAME}.root
+   rm ${STEP4_NAME}.root
 
    #rm -rf rm -rf CMSSW_*
-   #rm -rf *_cfg.py
-#fi
+   rm -rf *_cfg.py
+fi
